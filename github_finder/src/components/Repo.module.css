@@ -1,0 +1,56 @@
+.repos_div{
+    background-color: #0e1129;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid #9da5d1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: start;
+    gap: 15px;
+}
+.repos_div h3{
+    font-weight: bold;
+    width: 100%;
+}
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.repos_div a{
+    font-weight: bold;
+    color: white;
+}
+.stats{
+    display: flex;
+    gap: 15px;
+}
+.stats div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9da5d1;
+    border-radius: 3px;
+    padding-right: 0.4rem;
+}
+.stats svg{
+    background-color: #07cc8a;
+    padding: 0.2rem 0.4rem;
+    font-size: 2rem;
+}
+.stats span{
+    padding-left: 0.4rem;
+}
+.repo_btn{
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: #9da5d1;
+    background-color: #2b3566;
+    border-radius: 5px;
+}

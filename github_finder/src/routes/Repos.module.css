@@ -1,0 +1,21 @@
+.repos{
+    position: relative;
+}
+.repos h2{
+    margin: 30px 0;
+    margin-bottom: 50px;
+}
+.repos_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2b3566;
+    padding: 30px;
+    border-radius: 15px;
+}
+.repos_container h3{
+    word-wrap: break-word;
+    max-width: 100%; 
+}
